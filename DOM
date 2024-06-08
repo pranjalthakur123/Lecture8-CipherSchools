@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Color Names</h1>
+        <ul>
+            <li>Red</li>
+            <li>Blue</li>
+            <li>Yellow</li>
+        </ul>
+    </div>
+    <div>
+        <h1>Fruits Names</h1>
+        <ul class="fruit">
+            <li>Apple</li>
+            <li>Grapes</li>
+            <li>Mangoes</li>
+        </ul>
+    </div>
+</body>
+</html>
+
+// Console DOM Traversal using different selectors
+document
+#document (file:///C:/Users/DELL/Desktop/js/CliperSchools/DOM.html)
+doc
+VM62:1 Uncaught ReferenceError: doc is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM62:1
+document.querySelectorAll("h1")
+NodeList(2) [h1, h1]
+const heading = document.querySelectorAll("h1")
+undefined
+heading
+NodeList(2) [h1, h1]
+heading[0]
+<h1>​Color Names​</h1>​
+heading[1]
+<h1>​Fruits Names​</h1>​
+const fruitsname=document.querySelector(".fruit")
+undefined
+fruitsname
+<ul class=​"fruit">​…​</ul>​
+fruitsname.children
+HTMLCollection(3) [li, li, li]0: li1: li2: lilength: 3[[Prototype]]: HTMLCollection
+fruitsname.childNodes
+NodeList(7) [text, li, text, li, text, li, text]0: text1: li2: text3: li4: text5: li6: textlength: 7[[Prototype]]: NodeList
+fruitsname.parentElement
+<div>​…​</div>​
